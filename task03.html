@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task03.css" />
+
+
+    <title>Task 03</title>
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="logo">YourCompany</h2>
+    </div>
+    <div class="contents">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Ff%2F5%2F7%2F761124-vertical-night-club-wallpapers-1920x1080.jpg&f=1&nofb=1"
+        alt="Banner"
+      />
+      <div class="title-box">
+        <p class="byline">
+          May 30, 2017 <span class="likes">- 325 Likes</span>
+        </p>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+      </div>
+
+      <div class="more">
+          <hr>
+        <div class="read-more-dropdown">
+          <p class="read-more-btn">read more...</p>
+          <svg max-width="90" height="90">
+            <rect width="100" height="100" fill="rgba(188,134,252,1)"/>
+            <text fill="#ffffff" font-size="75" font-family="Verdana"
+            x="17" y="70">+</text>
+            Sorry, your browser does not support inline SVG.
+          </svg>
+        </div>
+
+        <table id="read-more" class="hidden">
+          <tr>
+            <td class="date"><span class="month">March</span><br />15</td>
+            <td class="blog">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              suscipit, fuga, temporibus quis cumque aliquam nisi reiciendis
+              dolorem animi error cum?
+            </td>
+          </tr>
+          <tr class="alt">
+            <td class="date"><span class="month">April</span><br />16</td>
+            <td class="blog">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              suscipit, fuga, temporibus quis cumque aliquam nisi reiciendis
+              dolorem animi error cum?
+            </td>
+          </tr>
+          <tr>
+            <td class="date"><span class="month">May</span><br />17</td>
+            <td class="blog">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              suscipit, fuga, temporibus quis cumque aliquam nisi reiciendis
+              dolorem animi error cum?
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
+          corporis ab distinctio necessitatibus!
+        </p>
+        <p>small text</p>
+        <div class="footer-nav"></div>
+      </div>
+    </div>
+    <script>
+        $('.read-more-dropdown').on('click', function() {
+            $('#read-more').toggleClass('hidden');
+        });
+    </script>
+  </body>
+</html>

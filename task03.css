@@ -1,0 +1,108 @@
+/* Body */
+body {
+    background-color: #433C50;
+    font-family: "Andale Mono";
+}
+hr {
+    margin: none;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    /* USE FONT */
+    color: white;
+}
+.logo {
+    font-family: 'Lobster';
+    font-size: 32px;
+}
+
+/* Contents */
+.contents {
+    background-color: white;
+    margin: 0 40px 40px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Title box */
+.title-box {
+    padding: 15px;
+}
+img {
+    max-width: 100%;
+}
+.likes {
+    color: #BC86FC;
+    cursor: pointer;
+}
+
+/* Read More Contents */
+.read-more-dropdown {
+    display: flex;
+}
+.read-more-dropdown:hover {
+    cursor: pointer;
+}
+.read-more-dropdown svg {
+    height: 90px;
+    width: 15%;
+    max-width: 90px;
+    background-color: #BC86FC;
+}
+.read-more-btn {
+    padding: 15px;
+    font-size: large;
+    width: 85%;
+}
+.more {
+    margin-bottom: 0;
+}
+.more table {
+    border-spacing: 0;
+    border: none;
+    color: white;
+}
+.more tr {
+    display: block;
+    /* margin: 10px; */
+    background-color: #BC86FC;
+    width: 100%;
+}
+.more tr.alt {
+    background-color: #C9A3F8;
+}
+.more td {
+    text-align: center;
+}
+.blog {
+    padding: 10px 5px;
+}
+.date {
+    padding-left: 15px;
+    min-width: 60px;
+    font-size: 24px;
+}
+.month {
+    font-size: small;
+    color: #433C50;
+}
+
+/* Footer */
+.footer {
+    color: white;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    height: 100px;
+    padding: 40px 10px 0 10px;
+}
+.footer p {
+    margin: 0;
+}
+
+/* Javascript/Dynamic classes */
+.hidden {
+    display: none;
+}
